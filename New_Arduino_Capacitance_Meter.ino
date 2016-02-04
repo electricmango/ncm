@@ -1,15 +1,12 @@
-/* New Arduino Capacitance Meter
-    by electricmango
-http://electricmango.github.io/
-     
-  version 2.3.2
+/*
+  New Arduino Capacitance Meter
+  V 2.3.1
+  by 
+  Daniel Min Hyuk Jang
   
-  For detailed schematic and original code (uses serial port):
+  Just an edit for the Liquid Crystal Library
   
-  http://arduino.cc/it/Tutorial/CapacitanceMeter
-  
-  original notes:
-  
+  Original:
   RCTiming_capacitance_meter
   Paul Badger 2008
   Demonstrates use of RC time constants to measure the value of a capacitor 
@@ -33,6 +30,12 @@ http://electricmango.github.io/
   Test Resistor between chargePin and common point
   220 ohm resistor between dischargePin and common point
   Wire between common point and analogPin (A/D input)
+  Liquid Crystal Display
+  
+  For detailed schematic and original code (uses serial port):
+  
+  http://arduino.cc/it/Tutorial/CapacitanceMeter
+  
  */
 
 #define analogPin      0          // analog pin for measuring capacitor voltage

@@ -1,4 +1,0 @@
-version.txt
-
-2.3.2
- - Open-sourced!
